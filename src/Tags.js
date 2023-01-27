@@ -7,12 +7,18 @@ function Tags(){
     return (
         <div className="tags">
             { tags.map((tag, index) => (
-                <div className="tag" key={index}>
-                    <span className="tag">#{tag}</span>
-                </div>
+                    <span className="tag" key={index}>#{tag}</span>
             )) }
         </div>
     )
 }
 
 export default Tags
+/*
+<div className="tags">
+            { tags.map((tag, index) => (
+                <div className="tag" key={index}>
+                    <span className="tag">#{tag}</span>
+                </div>
+            )) }
+        </div>*/
