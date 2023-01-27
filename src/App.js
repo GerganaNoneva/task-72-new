@@ -1,4 +1,5 @@
 import "./App.css";
+import TagsInput from "./Tags";
 
 function App() {
   return (
@@ -11,9 +12,10 @@ function App() {
       </section>
       <div class="container is-fullhd">
         <div class="notification">
-          Edit the <code>./src</code> folder to add components.
+        <TagsInput/>
         </div>
       </div>
+
     </div>
   );
 }
